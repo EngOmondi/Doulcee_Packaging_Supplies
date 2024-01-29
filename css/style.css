@@ -147,7 +147,7 @@ body{
     display: none;
 }
 
-.home{
+.home {
     min-height: 100vh;
     width: 100vw;
     background-image: url(../images/zu.jpg);
@@ -161,6 +161,15 @@ body{
     position: relative;
     overflow: hidden !important;
 }
+
+/* Add a media query for mobile devices */
+@media (max-width: 768px) {
+    .home {
+        background-size: contain; /* or any other suitable value */
+        background-position: center; /* You might want to adjust the position */
+    }
+}
+
 
 .home h1{
     color: #fff;
