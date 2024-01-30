@@ -165,7 +165,7 @@ body{
 /* Add a media query for mobile devices */
 @media (max-width: 768px) {
     .home {
-        background-size: contain; /* or any other suitable value */
+        background-size: cover; /* or any other suitable value */
         background-position: center; /* You might want to adjust the position */
     }
 }
